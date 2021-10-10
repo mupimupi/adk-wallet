@@ -9,8 +9,7 @@
   <li> PLEASE NOTE: This is a TESTNET VERSION. USE AT OWN RISK. </li>
   <li> Only use if you are part of the testing team and have been instructed to use this version. </li>
   <li> DO NOT USE THE TESTNET VERSION WITH YOUR MAINNET SEEDS! </li>
-
-	</ul>
+  </ul>
 
 
 <h6 align="center">This repository contains the TESTNET desktop wallet for Aidos Kuneen ADK</h6>
