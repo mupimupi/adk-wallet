@@ -6,16 +6,14 @@
   <br>
   </h1>
   <ul>
-  <li> PLEASE NOTE: This is Miriam's INTERNAL TEST VERSION. USE AT OWN RISK. </li>
+  <li> PLEASE NOTE: This is a TESTNET VERSION. USE AT OWN RISK. </li>
   <li> Only use if you are part of the testing team and have been instructed to use this version. </li>
   <li> DO NOT USE THE TESTNET VERSION WITH YOUR MAINNET SEEDS! </li>
-  <li> THE OFFICIAL AIDOS WALLET for ADKGO (Testnet) - for PUBLIC Testnet access - will be available on the OFFICIAL AidosKuneen Github soon at <br>
-             https://github.com/AidosKuneen/aidos-wallet-adkgo
-			 </il>
+
 	</ul>
 
 
-<h6 align="center">This repository contains the TESTNET desktop wallet for Aidos Kuneen ADK (INTERNAL RELEASE, NOT (yet) FOR PUBLIC USE)</h6>
+<h6 align="center">This repository contains the TESTNET desktop wallet for Aidos Kuneen ADK</h6>
 
 
 ## Requirements
@@ -43,12 +41,12 @@ If you want to package the wallet you will need:
 
 ## Build & Run
 
-These instructions are only in case you want to build the wallet by yourself. Pre-built packages are available on [Release Page](https://github.com/adkmaster/aidos-wallet-adkgo-testnet/releases).
+These instructions are only in case you want to build the wallet by yourself. Pre-built packages are available on [Release Page](https://github.com/AidosKuneen/aidos-wallet-adkgo-testnet/releases).
 
 1. Clone this repository:
 
 ```
-git clone https://github.com/adkmaster/aidos-wallet-adkgo-testnet
+git clone https://github.com/AidosKuneen/aidos-wallet-adkgo-testnet
 ```
 
 2. Install dependencies:
@@ -83,4 +81,4 @@ You need the specific OS for each package (i.e. cannot cross compile).
 
 ## LICENSE
 
-[GNU General Public License v3.0](https://github.com/adkmaster/aidos-wallet-adkgo-testnet/blob/master/LICENSE)
+[GNU General Public License v3.0](https://github.com/AidosKuneen/aidos-wallet-adkgo-testnet/blob/master/LICENSE)
