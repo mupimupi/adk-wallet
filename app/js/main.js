@@ -181,7 +181,7 @@ var App = (function (App, undefined) {
         settings.depth = 3;
       }
       if (!settings.hasOwnProperty("lightWalletHost")) {
-        settings.lightWalletHost = "http://78.47.144.254";
+        settings.lightWalletHost = "http://api2.testnet.aidoskuneen.com";
       }
       if (!settings.hasOwnProperty("lightWalletPort")) {
         settings.lightWalletPort = 14266;
@@ -199,7 +199,7 @@ var App = (function (App, undefined) {
       console.log(err);
       settings = {
         bounds: { width: 1124, height: 850 },
-        lightWalletHost: "http://78.47.144.254",
+        lightWalletHost: "http://api2.testnet.aidoskuneen.com",
         lightWalletPort: 14266,
         lightWallet: 1,
         lastUpdateCheck: 0,
