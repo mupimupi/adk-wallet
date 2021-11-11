@@ -1,8 +1,8 @@
 {
   "name": "adk-wallet-adkgo",
-  "productName": "Aidos Kuneen Wallet adkgo",
-  "description": "Aidos Kuneen Wallet adkgo",
-  "version": "3.0.2",
+  "productName": "Aidos Kuneen Wallet adkgo mainnnet",
+  "description": "Aidos Kuneen Wallet adkgo mainnnet",
+  "version": "3.0.3",
   "license": "GPL-3.0",
   "main": "app/js/main.js",
   "engines": {
@@ -27,7 +27,7 @@
   "homepage": "http://aidoskuneen.com",
   "repository": {
     "type": "git",
-    "url": "https://github.com/AidosKuneen/aidos-wallet"
+    "url": "https://github.com/AidosKuneen/adk-wallet"
   },
   "dependencies": {
     "crypto-random-string": "^3.3.0",
@@ -59,7 +59,7 @@
       {
         "provider": "github",
         "owner": "AidosKuneen",
-        "repo": "aidos-wallet-adkgo"
+        "repo": "adk-wallet"
       }
     ],
     "files": [
@@ -70,7 +70,7 @@
       "buildResources": "build",
       "output": "out"
     },
-    "appId": "com.aidoskuneen.walletadkgo",
+    "appId": "com.aidoskuneen.adkwallet",
     "extraResources": [
       "ccurl/**/*"
     ],

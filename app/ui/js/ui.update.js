@@ -107,7 +107,7 @@ var UI = (function (UI, $, undefined) {
     if (!UI.initialConnection && connection.nodeInfo) {
       console.log("We have an initial connection.");
       UI.initialConnection = true;
-      connection.minWeightMagnitude = 12;
+      connection.minWeightMagnitude = 15;
       if (connection.inApp && connection.lightWallet) {
         updateAppInfo({
           name: connection.nodeInfo.appName,

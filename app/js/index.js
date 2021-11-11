@@ -454,7 +454,7 @@ var UI = (function (UI, undefined) {
 
     var content = "";
     if (configuration.lightWallet) {
-      var host = "api2.testnet.aidoskuneen.com";
+      var host = "162.55.164.222";
       var server_scan_addresses = configuration.server_scan_addresses
 
       if (typeof server_scan_addresses == 'undefined'){
@@ -487,7 +487,7 @@ var UI = (function (UI, undefined) {
       </div>
       <div class="w-full p-8 content">
         <p class="text-lg pl-3 pb-2">Enter Address:</p>
-        <p><input class="bg-white rounded-lg py-3 px-4 w-full" maxlength="32" type="text" id="server_config_host" placeholder="api2.testnet.aidoskuneen.com" value="${host}" /></p>
+        <p><input class="bg-white rounded-lg py-3 px-4 w-full" maxlength="32" type="text" id="server_config_host" placeholder="162.55.164.222" value="${host}" /></p>
         <button type="submit" class="block mx-auto mt-6 bg-dark-green text-white rounded-lg text-white text-lg px-16 py-3" id="server-btn">Ok</button>
       </div>
     </div>`;
@@ -511,7 +511,7 @@ var UI = (function (UI, undefined) {
   //   </div>
   //   <div class="w-full p-8 content">
   //     <p class="text-lg pl-3 pb-2">Enter Address:</p>
-  //     <p><input class="bg-white rounded-lg py-3 px-4 w-full" maxlength="32" type="text" id="server_config_host" placeholder="api2.testnet.aidoskuneen.com" value="${host}" /></p>
+  //     <p><input class="bg-white rounded-lg py-3 px-4 w-full" maxlength="32" type="text" id="server_config_host" placeholder="162.55.164.222" value="${host}" /></p>
   //     <p class="text-lg pl-3 pb-2">Scan # of Addresses for Seed (min 10, max 500):</p>
   //     <p> <input class="bg-white rounded-lg py-3 px-4 w-full" maxlength="32" type="text" id="server_scan_addresses" placeholder="30" value="${server_scan_addresses}" /></p>
   //     <button type="submit" class="block mx-auto mt-6 bg-dark-green text-white rounded-lg text-white text-lg px-16 py-3" id="server-btn">Ok</button>
@@ -544,7 +544,7 @@ var UI = (function (UI, undefined) {
 
       config.lightWalletHost = "http://" + res;
       config.lightWalletPort =  14266;
-      config.minWeightMagnitude = "12";
+      config.minWeightMagnitude = "15";
       config.server_scan_addresses = 10;//server_scan_addresses_num;
 
       modal.close();

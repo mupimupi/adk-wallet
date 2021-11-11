@@ -181,12 +181,12 @@ var App = (function (App, undefined) {
         settings.depth = 3;
       }
       if (!settings.hasOwnProperty("lightWalletHost")) {
-        settings.lightWalletHost = "http://api2.testnet.aidoskuneen.com";
+        settings.lightWalletHost = "http://162.55.164.222";
       }
       if (!settings.hasOwnProperty("lightWalletPort")) {
         settings.lightWalletPort = 14266;
       }
-      settings.minWeightMagnitude = 12;
+      settings.minWeightMagnitude = 15;
       if (!settings.hasOwnProperty("server_scan_addresses")) {
         settings.server_scan_addresses = 10;
       } else {
@@ -199,14 +199,14 @@ var App = (function (App, undefined) {
       console.log(err);
       settings = {
         bounds: { width: 1124, height: 850 },
-        lightWalletHost: "http://api2.testnet.aidoskuneen.com",
+        lightWalletHost: "http://162.55.164.222",
         lightWalletPort: 14266,
         lightWallet: 1,
         lastUpdateCheck: 0,
         showStatusBar: 0,
         isFirstRun: 1,
         port: 14265,
-        minWeightMagnitude: 12,
+        minWeightMagnitude: 15,
         server_scan_addresses: 10,
         nodes: [],
       };
@@ -1621,7 +1621,7 @@ var App = (function (App, undefined) {
       if (configuration.hasOwnProperty("minWeightMagnitude")) {
         settings.minWeightMagnitude = parseInt(
           configuration.minWeightMagnitude,
-          12
+          15
         );
       }
 

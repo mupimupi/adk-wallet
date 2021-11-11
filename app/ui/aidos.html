@@ -1056,29 +1056,23 @@
                   <summary
                     class="relative text-lg list-none focus:outline-none"
                   >
-                    What is the difference between ADK (mesh), ADK (ERC20), ADKGAS?
+                    What is the difference between ADK (mesh), ADK (ERC20), AGS (GAS)?
                   </summary>
                   <p class="pt-3 px-3">
-                    There is no difference in terms of value. ADK can be converted between
-                    these 1:1. The total supply across ADK (mesh), ADK (ERC20) and ADKGAS is always 25MM.
                     <ul>
                        <li>&bull; <b>ADK (mesh)</b> are ADK which are recorded against the 'traditional' ADK Mesh Addresses ('AZ9' format, 81/90 char long)</li>
                        <li>&bull; <b>ADK (ERC20)</b> are ADK which have been sent from the Mesh to a "0x" address and are recorded as an ERC20 Token. Note that this is NOT an Ethereum ERC20 token, but an actual token on the ADK Network/Smart Contract. In order to use it you will have to have MetaMask installed, and have it connected to an ADKGO Node (NOT Ethereum node!)</li>
-                       <li>&bull; <b>ADKGAS</b> are ADK which are used as GAS in order to deploy contracts on the ADK network. (they are similar to ETH on Ethereum). ADKGAS and ADK(ERC20) can be exchanged from one to another via the ADKGAS contract.</li>
+                       <li>&bull; <b>AGS</b> is the fuel for the ADK Network (they are similar to ETH on Ethereum). Please note that ADK and AGS are different! Do not attempt to send AGS to Mesh addresses.</li>
                     </ul>
                     &nbsp;<br/>
                     <b>The following conversions are possible:</b>
                     <ul>
                        <li>&bull; <b>ADK (mesh)</b> to <b>ADK (ERC20)</b>, simply by sending ADK (mesh) from this wallet to your 0x Metamask address (see "Tools" tab)</li>
-                       <li>&bull; <b>ADK (ERC20)</b> to <b>ADKGAS</b>, by sending ADK (ERC20) to the ADKGAS contract, which will credit ADKGAS to the sending 0x address</li>
-                       <li>&bull; <b>ADKGAS</b> to <b>ADK (ERC20)</b>, by sending ADKGAS to the ADKGAS contract, which will credit ADK (ERC20) to the sending 0x address</li>
                        <li>&bull; <b>ADK (ERC20)</b> to <b>ADK (mesh)</b>, simply by sending ADK (ERC20) from your 0x Metamask address to your wallet using a virtual 0x address representing your Wallet AZ9 address (see "Tools" tab)</li>
                     </ul>
                     &nbsp;<br/>
-                    NOTE: Conversion from ADKGAS <i>directly</i> to ADK(mesh) is not possible (you have to convert to ADK ERC20 first). <br/>
+                    NOTE: You cannot send AGS to to 9AZ ADK(mesh) addresses, AGS only exist on 0x non-mesh addresses. <br/>
                     <br/>
-                    <br/>
-                    ADKGAS contract: <input type="text" value="0xdf61877BaB8B3789A41924fdDB01804cfAED3C55" readonly style="width: 70%"><br/>
                   </p>
                 </details>
                 <details class="p-4 border-b-2 border-platinum cursor-pointer">
@@ -1088,18 +1082,18 @@
                     How do I use MetaMask to use ADK (ERC20)?
                   </summary>
                   <p class="pt-3 px-3">
-                    Install the Metamask Extension (or another compatible ERC20 capable wallet), and add the ADKGO network:
+                    Install the Metamask Extension (or another compatible ERC20 capable wallet), and add the ADK network:
                     <ul>
-                       <li>&bull; <b>Network Name:</b> ADKGO Testnet</li>
-                       <li>&bull; <b>New RPC URL:</b> http://api2.testnet.aidoskuneen.com:8545   (or whichever adkgo node you are using)</li>
-                       <li>&bull; <b>Chain ID:</b> 40269</li>
-                       <li>&bull; <b>Currency Symbol:</b> ADKGAS</li>
+                       <li>&bull; <b>Network Name:</b> ADK Mainnet</li>
+                       <li>&bull; <b>New RPC URL:</b> http://162.55.164.222:8545   (or whichever adkgo node you are using)</li>
+                       <li>&bull; <b>Chain ID:</b> 40270</li>
+                       <li>&bull; <b>Currency Symbol:</b> AGS</li>
                     </ul>
                     &nbsp;<br/>
                     Add the ADK (ERC) Token to your account(s):
                     <ul>
                        <li>&bull; <b>Token Contract Address:</b> <input type="text" value="0xB56a995117b41dA5BA90DA5c66116c60c6e19170" readonly style="width: 70%"></li>
-                       <li>&bull; <b>Token Symbol:</b>ADKERC</li>
+                       <li>&bull; <b>Token Symbol:</b>ADK</li>
                        <li>&bull; <b>Token Decimal:</b> 8</li>
                     </ul>
                     &nbsp;<br/>
@@ -1122,7 +1116,7 @@
                     Winternitz one-time signatures which degrade security
                     exponentially after each reuse.
                     <br/><br/>
-                    <u>0x-style native addresses (ADK ERC20 and ADKGO  Addresses):</u><br/>
+                    <u>0x-style native addresses (ADK ERC20 0x Addresses, non-mesh):</u><br/>
                     These addresses can be re-used without restrictions. You can use them just as you would use Ethereum 0x addresses.
                   </p>
                 </details>
@@ -1152,7 +1146,7 @@
               <h1 class="font-medium text-4xl text-white">
                 Aidos Kuneen Wallet
               </h1>
-              for adkgo node (NOTE: THIS IS A TESTNET VERSION)
+              for adk-node (adkgo) - MAINNET VERSION
             </div>
             <fieldset id="login1" class="w-full max-w-md">
               <div class="mt-1 relative shadow-sm">

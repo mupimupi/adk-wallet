@@ -12,7 +12,7 @@ var connection = {
   host: "http://localhost",
   port: 14265,
   depth: 3,
-  minWeightMagnitude: 12,
+  minWeightMagnitude: 15,
   ccurlPath: null,
   lightWallet: false,
 };
@@ -75,7 +75,7 @@ var UI = (function (UI, $, undefined) {
         if (params.has("minWeightMagnitude")) {
           connection.minWeightMagnitude = parseInt(
             params.get("minWeightMagnitude"),
-            10
+            15
           );
         }
         if (params.has("ccurlPath")) {
